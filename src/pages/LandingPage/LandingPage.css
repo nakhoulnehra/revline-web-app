@@ -1,0 +1,12 @@
+.site-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.landing-canvas {
+  flex: 1;
+  overflow: hidden;
+  background: #fff;
+}
