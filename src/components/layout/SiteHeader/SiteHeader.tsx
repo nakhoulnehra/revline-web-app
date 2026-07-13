@@ -26,7 +26,7 @@ export function SiteHeader({ activeSection }: SiteHeaderProps) {
         </nav>
 
         <a className="header-sign-in" href="#contact">
-          <span>Get in touch</span>
+          <span>Register</span>
           <svg viewBox="0 0 20 20" aria-hidden="true">
             <path d="M4 10h11M11 6l4 4-4 4" />
           </svg>

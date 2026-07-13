@@ -225,7 +225,7 @@ export function ScrollJourney({ onActiveSectionChange }: ScrollJourneyProps) {
         ))}
       </div>
 
-      <JourneySection id="revline" index={0} eyebrow="Your vehicle, understood" title="Confidence for every mile ahead." description="Revline turns vehicle maintenance from guesswork into a clear, connected journey—helping you understand what your car needs, what has been done, and what comes next." image={revlineLogo} imageAlt="Revline automotive platform emblem" align="left">
+      <JourneySection id="revline" index={0} eyebrow="Your vehicle, understood" title="Confidence for every mile ahead." description="Revline turns vehicle maintenance from guesswork into a clear, connected journey, helping you understand what your car needs, what has been done, and what comes next." image={revlineLogo} imageAlt="Revline automotive platform emblem" align="left">
         <a className="journey-button journey-button--primary" href="#diagnosis">Explore Revline</a>
         <a className="journey-button journey-button--text" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
       </JourneySection>
