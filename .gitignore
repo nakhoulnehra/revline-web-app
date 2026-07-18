@@ -22,7 +22,13 @@ lerna-debug.log*
 # Local environment files
 .env
 .env.*
+!.env.example
 *.local
+
+# AI assistant instructions (device-local)
+CLAUDE.md
+AGENTS.md
+.claude/
 
 # Editors and operating systems
 .vscode/*
