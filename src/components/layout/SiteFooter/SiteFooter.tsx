@@ -22,7 +22,7 @@ export function SiteFooter() {
 
         <div className="footer-contact">
           <p className="footer-heading">Contact</p>
-          <a href="mailto:nehranakhoul@gmail.com">nehranakhoul@gmail.com</a>
+          <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=nehranakhoul%40gmail.com" target="_blank" rel="noreferrer">nehranakhoul@gmail.com</a>
           <p>Professional automotive<br />software and services.</p>
         </div>
 

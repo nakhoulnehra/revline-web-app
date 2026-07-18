@@ -243,8 +243,15 @@ export function ScrollJourney({ onActiveSectionChange }: ScrollJourneyProps) {
       </JourneySection>
 
       <JourneySection id="contact" index={4} eyebrow="Start the conversation" title="Ready for a clearer maintenance journey?" description="Whether you are organizing your own vehicle care or exploring better automotive software and services, we would be glad to hear from you." align="left">
-        <a className="journey-button journey-button--primary" href="mailto:nehranakhoul@gmail.com">Email Revline</a>
-        <a className="journey-contact-link" href="mailto:nehranakhoul@gmail.com">nehranakhoul@gmail.com</a>
+        <a className="journey-button journey-button--whatsapp" href="https://wa.me/96179137797" target="_blank" rel="noreferrer" aria-label="Contact Revline on WhatsApp">
+          <svg className="journey-button__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.04 2a9.84 9.84 0 0 0-8.53 14.75L2 22l5.38-1.41A9.96 9.96 0 0 0 12.04 22 9.95 9.95 0 0 0 12.04 2Zm0 18.32a8.27 8.27 0 0 1-4.21-1.15l-.3-.18-3.2.84.86-3.11-.2-.32a8.17 8.17 0 0 1-1.27-4.39 8.31 8.31 0 1 1 8.32 8.31Zm4.56-6.23c-.25-.13-1.48-.73-1.71-.81-.23-.09-.4-.13-.57.12-.16.25-.64.81-.78.98-.15.17-.29.19-.54.06-.25-.12-1.05-.38-2-1.23a7.47 7.47 0 0 1-1.38-1.72c-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.32-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.57-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.12.16 1.77 2.71 4.29 3.8.6.26 1.07.41 1.43.52.6.19 1.15.16 1.58.1.48-.07 1.48-.61 1.69-1.19.21-.58.21-1.08.15-1.18-.07-.1-.23-.16-.48-.29Z" />
+          </svg>
+          WhatsApp Revline
+        </a>
+        <span className="journey-contact-email">
+          or email us at <a className="journey-contact-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=nehranakhoul%40gmail.com" target="_blank" rel="noreferrer">nehranakhoul@gmail.com</a>
+        </span>
       </JourneySection>
     </div>
   )
