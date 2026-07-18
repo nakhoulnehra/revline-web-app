@@ -1,0 +1,11 @@
+:root {
+  --color-brand: #7c1015;
+  --color-brand-deep: #5d0a0e;
+  --color-ink: #211d1d;
+  --color-muted: #756f6f;
+  --color-line: #e8e3e1;
+  --font-body: 'DM Sans', sans-serif;
+  --font-display: 'Manrope', sans-serif;
+  --content-width: 1600px;
+  --page-gutter: clamp(1.5rem, 5vw, 5.75rem);
+}
